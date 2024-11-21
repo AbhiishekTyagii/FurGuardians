@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FurGuardians - Give Love,Get Love</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style2.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+   <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">FurGuardians</a>
+      </h1>
+<!-- 
+      <select name="language" class="lang-switch">
+
+        <option value="english">English</option>
+        <option value="french">French</option>
+        <option value="spanish">Spanish</option>
+
+      </select> -->
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline">FurGuardians</ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">FurGuardians</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Service</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#adopt" class="navbar-link" data-nav-link>
+              <span>Adopt</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#donate" class="navbar-link" data-nav-link>
+              <span>Donate</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#event" class="navbar-link" data-nav-link>
+              <span>Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+        
+        <button class="btn btn-primary">
+          <span>Donate</span>
+
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+ <!-- 
+    - #ADOPTION FORM
+  -->
+
+  <div class="adoptionform">
+    <div class="form">
+      <form action="#">
+         <h1 id="form-heading">Get yourself a new pet</h1>
+         <p style="text-align: center;">Enter the required details</p>
+       
+         <label>Full Name:</label>
+         <input type="text"  required>
+         <label>Phone Number:</label>
+         <input type="text"  required>
+         <label>Email:</label>
+         <input type="email" required >
+         <label>Address:</label>
+         <input type="text" required >
+         <div id="pet-box">
+          <label for id="pet-name">Which pet do you want to choose:</label>
+            <select name="pet" id="pet-name">
+             <option>Dog</option>
+             <option>Cat</option>
+             <option>Pigeon</option>
+             <option>Cow</option>
+             </select>
+         </div>
+        
+         <label>Why do you want to adopt:</label><br>
+         <textarea rows="3" cols="60"></textarea><br>
+         <p id="msg">* We will contact you for further details</p>
+     
+         <button type="submit" class="form-button">Submit</button>
+     
+      </form>
+    </div>
+  </div>
+
+   <!-- 
+    - #FOOTER
+  -->
+  
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+
+      <p class="copyright">
+        Copyright 2024 <a href="#" class="copyright-link">himanshi malik</a>. All Rights Reserved.
+      </p>
+
+    </div>
+  </footer>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
